@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - New Features</title>
+    <style>
+        form{
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="get">
+        <fieldset>
+            <legend>Login</legend>
+            <p style="width: 200px; margin-right: 0;">Full Name <span style="color: red"> * </span>: </p>
+            <input type="text" name="username" autofocus required/> <br />
+            <p style="width: 200px;margin-right: 0;">Email:</p>
+            <input type="email" name="emailId" required/><br />
+            <p style="width: 200px; margin-right: 0;">Password:</p>
+            <input type="password" name="pwd" required/><br />
+        </fieldset>
+        <br /><br />
+        <fieldset>
+            <legend>Personal Info</legend>
+            <span>Address: </span>
+            <textarea name="address" cols="25" rows="10"></textarea> <br />
+            <span>Contact No:</span>
+            <input type="tel" name="contact" min="5555555555" max="9999999999" required/> <br />
+            <span>Date of Birth:</span>
+            <input type="date" name="dob" min="1966-01-01" max="2000-12-31"/> <br />
+            <span>Enter portfolio URL:</span>
+            <input type="url" name="portfolio" /><br>
+            <span>Age</span>
+            <input type="number" name="age" min="18" max="60"/><br>
+            <input type="text" name="Firstname" placeholder="Please enter your first name"/>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <select name="anime-characters">
+        <optgroup label="Naruto">
+            <option>Kakashi</option>
+            <option>Sasuke</option>
+            <option>Madara</option>
+        </optgroup>
+        <optgroup label="One Piece">
+            <option>Luffy</option>
+            <option>Zoro</option>
+            <option>Sanji</option>
+        </optgroup>
+        <optgroup label="Hunter x Hunter">
+            <option>Gon</option>
+            <option>Killua</option>
+            <option>Hisoka</option>
+        </optgroup>
+    </select>
+
+    <p>Colours:</p>
+    <input list="colours" />
+    <datalist id="colours">
+        <option value="Blue">
+        <option value="Black">
+        <option value="Brown">
+        <option value="Orange">
+        <option value="Green">
+        <option value="Silver">
+        <option value="Pink">
+        <option value="Purple">
+        <option value="Yellow">
+        <option value="White">
+    </datalist>
+    <br/>
+    <input type="color" name="color" /><br/>
+    <input type="file" name="resume"/>
+</body>
+
+</html>
