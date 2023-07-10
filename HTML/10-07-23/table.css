@@ -1,0 +1,29 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    height: 400px;
+    margin: 150px auto;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+td, th{
+    border: 1px solid black;
+}
+
+td{
+    padding: 0 15px;
+}
+
+#hour{
+    text-align: center;
+}
+
+#lunch{
+    text-align: center;
+}
+
+caption{
+    padding-bottom: 5px;
+}
