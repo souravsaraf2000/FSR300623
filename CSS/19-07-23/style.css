@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #container{
+    height: 300px;
+    width: 300px;
+    background-color: cyan;  
+    border: 1px solid black; 
+    animation: colorChange 10s linear 2 backwards;   
+    animation-direction: alternate;                                                                                                                                                                                                
+}
+
+@keyframes colorChange{
+    0%{
+        background-color: cyan;
+    }
+    25%{
+        background-color: lightcoral;
+    }
+    50%{
+        background-color: purple;
+    }
+    100%{
+        background-color: lightgreen;
+    }
+} */
+
+/* #container img{
+    height: 350px;
+    width: 500px;
+}
+
+#i1{
+    animation: opacityPlay1 5s linear infinite ;
+}
+
+#i2{
+    animation: opacityPlay2 5s linear infinite ;
+}
+
+@keyframes opacityPlay1{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes opacityPlay2{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
+
+/* #sky{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1573089582036-089192541e40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#rocket{
+    height: 200px;
+    width: 180px;
+    position: relative;
+    top: 540px;
+    display: block;
+    margin: 0 auto;
+    animation: fly 3s ease-in infinite;
+}
+
+@keyframes fly{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100vh);
+    }
+} */
+
+/* #anchor{
+    font-size: 20px;
+}
+
+#anchor:link{
+    text-decoration: none;
+    color: red;
+}
+
+#anchor:active{
+    color: blue;
+}
+
+#anchor:visited{
+    color: green;
+} */
+
+/* #name:disabled{
+    cursor: not-allowed;
+}
+
+#email:required{
+    background-color: red;
+}
+
+#email:focus{
+    background-color: blue;
+} */
+
+/* #wrapper p:first-child{
+    background-color: lightblue;
+}
+
+#wrapper p:last-child{
+    background-color: lightcoral;
+}
+
+#wrapper p:nth-child(3), #wrapper p:nth-child(4){
+    background-color: lightgreen;
+} */
+
+
+/* #wrapper :not(p){
+    background-color: orange;
+} */
+/* :root{
+    background-color: yellow;
+} */
+
+#para::first-line{
+    color: blue;
+}
+
+#para::first-letter{
+    font-size: 30px;
+}
+
+#para::before{
+    content: '😉';
+}
+
+#para::after{
+    content: '👍';
+}
+
+#para::selection{
+    background-color: green;                 
+    color: yellow;
+}
+
+#name::placeholder{
+    color: red;
+    font-size: 10px;
+    padding: 5px 20px;
+}
