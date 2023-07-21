@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* #heading{
+    font-family: 'Comic Neue', cursive;
+}
+
+#newHeading{
+    font-family: 'Poppins', sans-serif;
+}
+
+#greet:hover::before{
+    content: '|';
+    position: relative;
+    bottom: 14px;
+}
+
+#greet:hover::after{
+    content: '|';
+    position: relative;
+    top: 14px;
+} */
+body{
+    background-color: #ebc0c6;
+}
+
+#container{
+    width: 50%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 150px auto;
+    box-shadow: 5px 5px 3px #ffa9b4;
+}
+
+#leftContainer{
+    width: 60%;
+    padding-top: 95px;
+}
+
+#rightContainer{
+    width: 40%;
+}
+
+#image{
+    width: 90%;
+}
+
+#image img{
+    width: 100%;
+}
+
+#size{
+    width: 80%;
+}
+
+#size p{
+    margin-bottom: 0;
+    color: #ebc0c6;
+}
+
+#sizeBoxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sizeBoxes p{
+    padding: 5px 10px;
+    border: 1px solid #cfa9ac;
+    border-radius: 2px;
+    margin-top: 5px;
+    color: #ebc0c6;
+}
+
+#subtitle{
+    color: #ebc0c6;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#rightContainer h1{
+    margin: 0;
+}
+
+#price{
+    font-size: 28px;
+    color: #ebc0c6;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#desc{
+    font-size: 14px;
+    color: rgba(0,0,0,0.8);
+}
+
+.btn{
+    color: white;
+    background-color: #ebc0c6;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+}
+
+#arrow{
+    padding: 11px 20px;
+    position: relative;
+    top: 4px;
+}
